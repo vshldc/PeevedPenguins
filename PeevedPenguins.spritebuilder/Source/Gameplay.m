@@ -12,7 +12,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
-    CCNode *_gamePlayScrollingNode
+    CCNode *_gamePlayScrollingNode;
 }
 
 // is called when CCB file has completed loading
