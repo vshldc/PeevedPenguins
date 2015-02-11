@@ -25,7 +25,7 @@
     
     CCAction *_followPenguin;
 }
-static const float MIN_SPEED = 3.f;
+static const float MIN_SPEED = 7.f;
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
