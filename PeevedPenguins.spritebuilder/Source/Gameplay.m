@@ -14,7 +14,6 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
-    CCNode *_gamePlayScrollingNode;
     CCNode *_contentNode;
     CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
@@ -72,7 +71,7 @@
 - (void)touchMoved:(UITouch *)touch withEvent:(UIEvent *)event
 {
     // whenever touches move, update the position of the mouseJointNode to the touch position
-    CGPoint touchLocation = [touch locationInNode:_gamePlayScrollingNode];
+    CGPoint touchLocation = [touch locationInNode:_contentNode];
     _mouseJointNode.position = touchLocation;
 }
 
